@@ -1,19 +1,91 @@
+//Слоган
 
 .slogan {
   display: flex;
 
   &__txt {
-    margin-left: 30px;
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 35px;
 
   }
 
-
   &__img {
-    width: 800px;
+    width: 45%;
+    margin-right: -50px;
 
   }
+}
 
+//Инфоблоки
+
+
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+
+  &__img {
+    width: 700px;
+
+    &_left {
+      margin-right: 10%;
+    }
+
+    &_right {
+      margin-right: 2%;
+    }
+  }
+
+  &__wrap {
+    font-size: 22px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__list-elem {
+      margin-bottom: 20px;
+
+
+  }
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+
+}
+
+.slide {
+
+  &__bg {
+    width: 1500px;
+  }
+
+  &__overlay {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.nav {
+  width: 40px;
+
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__photos {
+    margin-right: 10px;
+  }
+
+  &__txt {
+
+  }
 }
