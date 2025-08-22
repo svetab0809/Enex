@@ -107,6 +107,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    cursor: pointer;
   }
 
   &__dots {
@@ -166,14 +167,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
+
   &__icon {
     width: 50px;
-    max-height: 50px;
+    height: 50px;
     margin-right: 20px;
     margin-left: 60px;
 
-    &_first {
-      margin-left: -18px;
+    &:first-child {
+      margin-left: 0;
     }
   }
 
@@ -183,29 +186,12 @@
   }
 }
 
-.mode {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
 
-  &__icon {
-    width: 50px;
-    margin-right: 5px;
-
-    &_break {
-      margin-left: 28px;
-    }
-  }
-
-  &__time {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
 
 .map {
   display: block;
   margin: 0 auto;
   margin-top: 50px;
+  width: 800px;
+  height: 420px;
 }
